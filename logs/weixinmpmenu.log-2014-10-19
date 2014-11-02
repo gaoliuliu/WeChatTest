@@ -1,0 +1,909 @@
+[INFO ] 2014-10-19 20:43:43,472 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 20:43:43 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:43:43,605 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:45:50,894 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a17083: startup date [Sun Oct 19 20:45:50 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:45:50,995 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WebRoot/WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:47:12,341 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@62937c: startup date [Sun Oct 19 20:47:12 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:47:12,436 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:48:12,860 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cfec48: startup date [Sun Oct 19 20:48:12 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:48:12,969 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:50:05,237 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@62937c: startup date [Sun Oct 19 20:50:05 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:50:05,330 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WebRoot/WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:55:24,290 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cfec48: startup date [Sun Oct 19 20:55:24 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:55:24,384 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO ] 2014-10-19 20:57:47,385 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cfec48: startup date [Sun Oct 19 20:57:47 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:57:47,515 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [WEB-INF/applicationContext.xml]
+[INFO ] 2014-10-19 20:59:26,182 org.springframework.context.support.ClassPathXmlApplicationContext     - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 20:59:26 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 20:59:26,288 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [C:/Users/gaowei/WeChatTest/WebRoot/WEB-INFapplicationContext.xml]
+[INFO ] 2014-10-19 21:01:04,215 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 21:01:04 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:01:04,310 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:01:04,634 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16acdd1: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:01:04,841         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:01:04,845         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:01:04,851         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:01:04,857         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:01:05,128           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:01:05,176           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.impl.Dialog -> dialog
+[INFO ] 2014-10-19 21:01:05,177 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:01:05,259 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[WARN ] 2014-10-19 21:01:05,272 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:01:05,272 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[WARN ] 2014-10-19 21:01:05,273     org.hibernate.cfg.SettingsFactory     - Could not obtain connection to query metadata
+org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:860)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:779)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:140)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:84)
+	at Testchaxun.Test1(Testchaxun.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 39 more
+[INFO ] 2014-10-19 21:01:05,308         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:01:05,313 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:01:05,315 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:01:05,315     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:01:05,315     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:01:05,316     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: disabled
+[INFO ] 2014-10-19 21:01:05,316     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): disabled
+[INFO ] 2014-10-19 21:01:05,316     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:01:05,318     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:01:05,321 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:01:05,321     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:01:05,321     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:01:05,321     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:01:05,322     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:01:05,322     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:01:05,322     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:01:05,322     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:01:05,330     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:01:05,330     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:01:05,330     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:01:05,330     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:01:05,396 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:01:05,474 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16acdd1: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:06:15,530 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@cfec48: startup date [Sun Oct 19 21:06:15 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:06:15,664 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:06:15,904 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@16acdd1: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:06:16,099         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:06:16,101         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:06:16,105         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:06:16,111         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:06:16,397           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:06:16,436           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:06:16,437 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:06:16,523 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[WARN ] 2014-10-19 21:06:16,535 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:06:16,535 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[WARN ] 2014-10-19 21:06:16,536     org.hibernate.cfg.SettingsFactory     - Could not obtain connection to query metadata
+org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:860)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:779)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:140)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:84)
+	at Testchaxun.Test1(Testchaxun.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 39 more
+[INFO ] 2014-10-19 21:06:16,577         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:06:16,587 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:06:16,590 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:06:16,590     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:06:16,590     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:06:16,591     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: disabled
+[INFO ] 2014-10-19 21:06:16,592     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): disabled
+[INFO ] 2014-10-19 21:06:16,592     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:06:16,596     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:06:16,599 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:06:16,599     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:06:16,600     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:06:16,600     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:06:16,600     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:06:16,600     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:06:16,600     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:06:16,601     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:06:16,610     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:06:16,610     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:06:16,610     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:06:16,610     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:06:16,693 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:06:17,003 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[WARN ] 2014-10-19 21:06:17,130 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:06:17,131 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[WARN ] 2014-10-19 21:06:17,132 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:06:17,132 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[INFO ] 2014-10-19 21:06:17,153 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO ] 2014-10-19 21:06:17,203 org.springframework.jdbc.support.SQLErrorCodesFactory     - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[WARN ] 2014-10-19 21:06:17,215 org.springframework.jdbc.support.SQLErrorCodesFactory     - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:213)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:141)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:104)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:143)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:453)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:410)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:411)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO.save(ActivityDAO.java:36)
+	at edu.fudan.gaowei.wechat.db.service.impl.ActivityServiceImpl.saveActivity(ActivityServiceImpl.java:35)
+	at Testchaxun.Test1(Testchaxun.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 29 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 33 more
+[ERROR] 2014-10-19 21:06:17,233 edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO     - save failed
+org.springframework.jdbc.UncategorizedSQLException: Hibernate operation: Cannot open connection; uncategorized SQLException for SQL [???]; SQL state [null]; error code [0]; Cannot load JDBC driver class 'com.mysql.jdbc.Driver'; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:83)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertJdbcAccessException(HibernateAccessor.java:424)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:410)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:411)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO.save(ActivityDAO.java:36)
+	at edu.fudan.gaowei.wechat.db.service.impl.ActivityServiceImpl.saveActivity(ActivityServiceImpl.java:35)
+	at Testchaxun.Test1(Testchaxun.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:446)
+	at org.hibernate.jdbc.ConnectionManager.getConnection(ConnectionManager.java:167)
+	at org.hibernate.jdbc.AbstractBatcher.prepareStatement(AbstractBatcher.java:116)
+	at org.hibernate.id.insert.AbstractSelectingDelegate.performInsert(AbstractSelectingDelegate.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2176)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2656)
+	at org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:279)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:321)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:204)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:130)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:210)
+	at org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:56)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:195)
+	at org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:50)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:93)
+	at org.hibernate.impl.SessionImpl.fireSave(SessionImpl.java:563)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:551)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:547)
+	at org.springframework.orm.hibernate3.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:686)
+	at org.springframework.orm.hibernate3.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:1)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:406)
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 45 more
+[INFO ] 2014-10-19 21:07:21,646 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@a31e1b: startup date [Sun Oct 19 21:07:21 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:07:21,743 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:07:21,978 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@facf0b: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:07:22,165         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:07:22,168         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:07:22,173         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:07:22,180         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:07:22,450           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:07:22,497           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:07:22,498 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:07:22,585 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[WARN ] 2014-10-19 21:07:22,596 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:07:22,596 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[WARN ] 2014-10-19 21:07:22,597     org.hibernate.cfg.SettingsFactory     - Could not obtain connection to query metadata
+org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:111)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2119)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2115)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1339)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:860)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:779)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:563)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:140)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:84)
+	at Testchaxun.Test1(Testchaxun.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 39 more
+[INFO ] 2014-10-19 21:07:22,634         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:07:22,638 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:07:22,641 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:07:22,641     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:07:22,641     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:07:22,642     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: disabled
+[INFO ] 2014-10-19 21:07:22,642     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): disabled
+[INFO ] 2014-10-19 21:07:22,642     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:07:22,643     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:07:22,644     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:07:22,644     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:07:22,644     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:07:22,644     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:07:22,644     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:07:22,647 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:07:22,647     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:07:22,648     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:07:22,648     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:07:22,648     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:07:22,648     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:07:22,649     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:07:22,649     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:07:22,659     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:07:22,659     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:07:22,660     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:07:22,660     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:07:22,750 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:07:23,028 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[WARN ] 2014-10-19 21:07:23,158 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:07:23,158 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[WARN ] 2014-10-19 21:07:23,160 org.hibernate.util.JDBCExceptionReporter     - SQL Error: 0, SQLState: null
+[ERROR] 2014-10-19 21:07:23,160 org.hibernate.util.JDBCExceptionReporter     - Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+[INFO ] 2014-10-19 21:07:23,179 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[INFO ] 2014-10-19 21:07:23,230 org.springframework.jdbc.support.SQLErrorCodesFactory     - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[WARN ] 2014-10-19 21:07:23,239 org.springframework.jdbc.support.SQLErrorCodesFactory     - Error while extracting database product name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:293)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:320)
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:213)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:141)
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:104)
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.newJdbcExceptionTranslator(SessionFactoryUtils.java:143)
+	at org.springframework.orm.hibernate3.HibernateAccessor.getDefaultJdbcExceptionTranslator(HibernateAccessor.java:453)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:410)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:411)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO.save(ActivityDAO.java:36)
+	at edu.fudan.gaowei.wechat.db.service.impl.ActivityServiceImpl.saveActivity(ActivityServiceImpl.java:35)
+	at Testchaxun.Test1(Testchaxun.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:280)
+	... 29 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 30 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 33 more
+[ERROR] 2014-10-19 21:07:23,247 edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO     - save failed
+org.springframework.jdbc.UncategorizedSQLException: Hibernate operation: Cannot open connection; uncategorized SQLException for SQL [???]; SQL state [null]; error code [0]; Cannot load JDBC driver class 'com.mysql.jdbc.Driver'; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:83)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:80)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertJdbcAccessException(HibernateAccessor.java:424)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:410)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:411)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.save(HibernateTemplate.java:683)
+	at edu.fudan.gaowei.wechat.db.dao.impl.ActivityDAO.save(ActivityDAO.java:36)
+	at edu.fudan.gaowei.wechat.db.service.impl.ActivityServiceImpl.saveActivity(ActivityServiceImpl.java:35)
+	at Testchaxun.Test1(Testchaxun.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:164)
+	at junit.framework.TestCase.runBare(TestCase.java:130)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:120)
+	at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1136)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:81)
+	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:446)
+	at org.hibernate.jdbc.ConnectionManager.getConnection(ConnectionManager.java:167)
+	at org.hibernate.jdbc.AbstractBatcher.prepareStatement(AbstractBatcher.java:116)
+	at org.hibernate.id.insert.AbstractSelectingDelegate.performInsert(AbstractSelectingDelegate.java:54)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2176)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2656)
+	at org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:279)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:321)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:204)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:130)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:210)
+	at org.hibernate.event.def.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:56)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:195)
+	at org.hibernate.event.def.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:50)
+	at org.hibernate.event.def.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:93)
+	at org.hibernate.impl.SessionImpl.fireSave(SessionImpl.java:563)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:551)
+	at org.hibernate.impl.SessionImpl.save(SessionImpl.java:547)
+	at org.springframework.orm.hibernate3.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:686)
+	at org.springframework.orm.hibernate3.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:1)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:406)
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:252)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:320)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:169)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1130)
+	... 45 more
+[INFO ] 2014-10-19 21:08:13,353 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@cfec48: startup date [Sun Oct 19 21:08:13 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:08:13,448 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:08:13,714 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18bbc5a: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:08:13,902         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:08:13,905         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:08:13,909         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:08:13,916         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:08:14,215           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:08:14,253           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:08:14,253 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:08:14,338 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:08:14,760     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:08:14,761     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:08:14,796         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:08:14,802 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:08:14,804 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:08:14,804     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:08:14,805     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:08:14,805     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:08:14,805     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:08:14,806     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:08:14,806     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:08:14,806     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:08:14,807     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:08:14,807     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:08:14,807     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:08:14,808     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:08:14,808     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:08:14,808     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:08:14,811 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:08:14,811     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:08:14,811     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:08:14,811     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:08:14,811     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:08:14,811     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:08:14,812     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:08:14,812     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:08:14,818     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:08:14,818     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:08:14,819     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:08:14,819     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:08:14,874 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:08:15,184 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:10:51,280 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@238a47: startup date [Sun Oct 19 21:10:51 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:10:51,399 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:10:51,716 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@162522b: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:10:51,950         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:10:51,954         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:10:51,959         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:10:51,969         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:10:52,337           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:10:52,393           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:10:52,393 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:10:52,517 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:10:52,937     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:10:52,938     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:10:52,990         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:10:52,997 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:10:53,001 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:10:53,001     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:10:53,001     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:10:53,001     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:10:53,001     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:10:53,003     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:10:53,003     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:10:53,003     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:10:53,005     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:10:53,010 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:10:53,010     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:10:53,010     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:10:53,011     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:10:53,011     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:10:53,011     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:10:53,011     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:10:53,011     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:10:53,024     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:10:53,024     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:10:53,024     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:10:53,024     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:10:53,102 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:10:53,587 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:13:24,408 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@10ea9ba: startup date [Sun Oct 19 21:13:24 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:13:24,538 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:13:24,848 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@102a0a5: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:13:25,110         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:13:25,113         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:13:25,117         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:13:25,127         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:13:25,531           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:13:25,595           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:13:25,596 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:13:25,725 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:13:26,148     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:13:26,148     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:13:26,226         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:13:26,233 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:13:26,237 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:13:26,237     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:13:26,237     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:13:26,238     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:13:26,238     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:13:26,239     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:13:26,240     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:13:26,240     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:13:26,241     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:13:26,242     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:13:26,242     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:13:26,242     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:13:26,242     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:13:26,242     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:13:26,247 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:13:26,247     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:13:26,247     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:13:26,247     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:13:26,247     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:13:26,248     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:13:26,248     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:13:26,248     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:13:26,262     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:13:26,262     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:13:26,262     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:13:26,262     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:13:26,342 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:13:26,761 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:14:09,184 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@cfec48: startup date [Sun Oct 19 21:14:09 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:14:09,311 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:14:09,582 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18bbc5a: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:14:09,801         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:14:09,804         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:14:09,814         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:14:09,821         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:14:10,136           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:14:10,211           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:14:10,212 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:14:10,308 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:14:10,702     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:14:10,702     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:14:10,734         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:14:10,742 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:14:10,744 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:14:10,744     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:14:10,745     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:14:10,745     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:14:10,745     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:14:10,746     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:14:10,746     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:14:10,746     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:14:10,747     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:14:10,747     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:14:10,747     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:14:10,747     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:14:10,748     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:14:10,748     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:14:10,751 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:14:10,751     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:14:10,751     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:14:10,751     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:14:10,751     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:14:10,751     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:14:10,752     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:14:10,752     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:14:10,759     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:14:10,759     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:14:10,759     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:14:10,759     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:14:10,814 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:14:11,094 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:15:29,637 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 21:15:29 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:15:29,742 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:15:29,987 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ee6681: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:15:30,177         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:15:30,180         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:15:30,186         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:15:30,195         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:15:30,491           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:15:30,544           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:15:30,545 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:15:30,640 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:15:30,994     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:15:30,995     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:15:31,027         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:15:31,034 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:15:31,036 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:15:31,036     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:15:31,037     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:15:31,037     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:15:31,037     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:15:31,038     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:15:31,038     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:15:31,038     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:15:31,039     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:15:31,039     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:15:31,040     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:15:31,040     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:15:31,040     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:15:31,040     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:15:31,043 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:15:31,043     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:15:31,043     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:15:31,043     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:15:31,043     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:15:31,044     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:15:31,044     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:15:31,044     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:15:31,050     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:15:31,051     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:15:31,051     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:15:31,051     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:15:31,106 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:15:31,402 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:19:50,545 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 21:19:50 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:19:50,734 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:19:51,122 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ee6681: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:19:51,355         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:19:51,357         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:19:51,363         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:19:51,373         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:19:51,661           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:19:51,708           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:19:51,709 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:19:51,804 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:19:52,208     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:19:52,208     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:19:52,242         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:19:52,249 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:19:52,251 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:19:52,251     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:19:52,251     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:19:52,252     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:19:52,252     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:19:52,253     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:19:52,253     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:19:52,253     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:19:52,254     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:19:52,254     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:19:52,254     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:19:52,255     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:19:52,255     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:19:52,255     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:19:52,258 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:19:52,258     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:19:52,259     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:19:52,259     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:19:52,259     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:19:52,259     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:19:52,259     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:19:52,260     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:19:52,269     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:19:52,269     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:19:52,270     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:19:52,270     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:19:52,334 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:19:52,624 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:21:53,125 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1c0e45a: startup date [Sun Oct 19 21:21:53 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:21:53,269 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:21:53,536 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ee6681: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:21:53,764         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:21:53,768         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:21:53,773         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:21:53,787         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:21:54,173           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:21:54,234           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:21:54,235 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:21:54,366 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:21:54,751     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:21:54,751     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:21:54,785         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:21:54,793 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:21:54,797 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:21:54,797     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:21:54,798     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:21:54,798     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:21:54,798     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:21:54,800     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:21:54,800     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:21:54,800     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:21:54,802     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:21:54,805 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:21:54,805     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:21:54,805     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:21:54,806     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:21:54,806     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:21:54,806     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:21:54,806     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:21:54,806     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:21:54,813     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:21:54,813     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:21:54,813     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:21:54,813     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:21:54,871 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:21:55,177 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:22:17,157 org.springframework.context.support.FileSystemXmlApplicationContext     - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@e1d5ea: startup date [Sun Oct 19 21:22:17 CST 2014]; root of context hierarchy
+[INFO ] 2014-10-19 21:22:17,291 org.springframework.beans.factory.xml.XmlBeanDefinitionReader     - Loading XML bean definitions from file [C:\Users\gaowei\WeChatTest\WebRoot\WEB-INF\applicationContext.xml]
+[INFO ] 2014-10-19 21:22:17,643 org.springframework.beans.factory.support.DefaultListableBeanFactory     - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13c6a22: defining beans [dataSource,sessionFactory,ActivityDAO,DialogDAO,ActivityService]; root of factory hierarchy
+[INFO ] 2014-10-19 21:22:17,883         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:22:17,890         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:22:17,894         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:22:17,908         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:22:18,238           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Activity -> activity
+[INFO ] 2014-10-19 21:22:18,278           org.hibernate.cfg.HbmBinder     - Mapping class: edu.fudan.gaowei.wechat.db.dao.pojo.Dialog -> dialog
+[INFO ] 2014-10-19 21:22:18,279 org.springframework.orm.hibernate3.LocalSessionFactoryBean     - Building new Hibernate SessionFactory
+[INFO ] 2014-10-19 21:22:18,367 org.hibernate.connection.ConnectionProviderFactory     - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[INFO ] 2014-10-19 21:22:18,742     org.hibernate.cfg.SettingsFactory     - RDBMS: MySQL, version: 5.0.51b-community-nt
+[INFO ] 2014-10-19 21:22:18,743     org.hibernate.cfg.SettingsFactory     - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+[INFO ] 2014-10-19 21:22:18,775         org.hibernate.dialect.Dialect     - Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2014-10-19 21:22:18,783 org.hibernate.transaction.TransactionFactoryFactory     - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[INFO ] 2014-10-19 21:22:18,785 org.hibernate.transaction.TransactionManagerLookupFactory     - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[INFO ] 2014-10-19 21:22:18,786     org.hibernate.cfg.SettingsFactory     - Automatic flush during beforeCompletion(): disabled
+[INFO ] 2014-10-19 21:22:18,786     org.hibernate.cfg.SettingsFactory     - Automatic session close at end of transaction: disabled
+[INFO ] 2014-10-19 21:22:18,786     org.hibernate.cfg.SettingsFactory     - JDBC batch size: 15
+[INFO ] 2014-10-19 21:22:18,786     org.hibernate.cfg.SettingsFactory     - JDBC batch updates for versioned data: disabled
+[INFO ] 2014-10-19 21:22:18,787     org.hibernate.cfg.SettingsFactory     - Scrollable result sets: enabled
+[INFO ] 2014-10-19 21:22:18,787     org.hibernate.cfg.SettingsFactory     - JDBC3 getGeneratedKeys(): enabled
+[INFO ] 2014-10-19 21:22:18,787     org.hibernate.cfg.SettingsFactory     - Connection release mode: auto
+[INFO ] 2014-10-19 21:22:18,788     org.hibernate.cfg.SettingsFactory     - Maximum outer join fetch depth: 2
+[INFO ] 2014-10-19 21:22:18,789     org.hibernate.cfg.SettingsFactory     - Default batch fetch size: 1
+[INFO ] 2014-10-19 21:22:18,789     org.hibernate.cfg.SettingsFactory     - Generate SQL with comments: disabled
+[INFO ] 2014-10-19 21:22:18,789     org.hibernate.cfg.SettingsFactory     - Order SQL updates by primary key: disabled
+[INFO ] 2014-10-19 21:22:18,789     org.hibernate.cfg.SettingsFactory     - Order SQL inserts for batching: disabled
+[INFO ] 2014-10-19 21:22:18,789     org.hibernate.cfg.SettingsFactory     - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:22:18,792 org.hibernate.hql.ast.ASTQueryTranslatorFactory     - Using ASTQueryTranslatorFactory
+[INFO ] 2014-10-19 21:22:18,792     org.hibernate.cfg.SettingsFactory     - Query language substitutions: {}
+[INFO ] 2014-10-19 21:22:18,792     org.hibernate.cfg.SettingsFactory     - JPA-QL strict compliance: disabled
+[INFO ] 2014-10-19 21:22:18,793     org.hibernate.cfg.SettingsFactory     - Second-level cache: enabled
+[INFO ] 2014-10-19 21:22:18,793     org.hibernate.cfg.SettingsFactory     - Query cache: disabled
+[INFO ] 2014-10-19 21:22:18,793     org.hibernate.cfg.SettingsFactory     - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[INFO ] 2014-10-19 21:22:18,793     org.hibernate.cfg.SettingsFactory     - Optimize cache for minimal puts: disabled
+[INFO ] 2014-10-19 21:22:18,793     org.hibernate.cfg.SettingsFactory     - Structured second-level cache entries: disabled
+[INFO ] 2014-10-19 21:22:18,801     org.hibernate.cfg.SettingsFactory     - Statistics: disabled
+[INFO ] 2014-10-19 21:22:18,802     org.hibernate.cfg.SettingsFactory     - Deleted entity synthetic identifier rollback: disabled
+[INFO ] 2014-10-19 21:22:18,802     org.hibernate.cfg.SettingsFactory     - Default entity-mode: pojo
+[INFO ] 2014-10-19 21:22:18,802     org.hibernate.cfg.SettingsFactory     - Named query checking : enabled
+[INFO ] 2014-10-19 21:22:18,859 org.hibernate.impl.SessionFactoryImpl     - building session factory
+[INFO ] 2014-10-19 21:22:19,164 org.hibernate.impl.SessionFactoryObjectFactory     - Not binding factory to JNDI, no JNDI name configured
+[INFO ] 2014-10-19 21:59:52,609 org.hibernate.cfg.annotations.Version     - Hibernate Annotations 3.4.0.GA
+[INFO ] 2014-10-19 21:59:52,644         org.hibernate.cfg.Environment     - Hibernate 3.3.2.GA
+[INFO ] 2014-10-19 21:59:52,650         org.hibernate.cfg.Environment     - hibernate.properties not found
+[INFO ] 2014-10-19 21:59:52,656         org.hibernate.cfg.Environment     - Bytecode provider name : javassist
+[INFO ] 2014-10-19 21:59:52,662         org.hibernate.cfg.Environment     - using JDK 1.4 java.sql.Timestamp handling
+[INFO ] 2014-10-19 21:59:52,829 org.hibernate.annotations.common.Version     - Hibernate Commons Annotations 3.1.0.GA
+[INFO ] 2014-10-19 21:59:52,837       org.hibernate.cfg.Configuration     - configuring from resource: /hibernate.cfg.xml
+[INFO ] 2014-10-19 21:59:52,838       org.hibernate.cfg.Configuration     - Configuration resource: /hibernate.cfg.xml
